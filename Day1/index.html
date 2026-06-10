@@ -1,0 +1,78 @@
+<!DOCTYPE html><!--modern HTML-->
+<html lang="en">
+<head><!--info about the page,not visible to the user-->
+    <meta charset="UTF-8"><!--character encoding-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title><!--sets the title-->
+</head>
+<body>
+    <header>
+       <h1 >Somiya</h1>
+       <p>Aspiring Web Developer | CSE student</p>
+    </header>
+    <main>
+        <nav>
+            <a href="#About">About Me</a> <!--id uniquely identifies a single element-->
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact Me</a>
+        </nav>
+        <section>
+           <h2 id="About">About Me</h2>
+           <img src="profile_photo.webp" alt="Image not found" width="200">
+           <p>Hello! My name is Somiya.I am a <span >Computer Science Engineering</span> student interested in Web Developer.</p>
+        </section>
+   
+       <section>
+        <h2 id="Skills">Skills</h2>
+           <h3>Technical Skills</h3>
+    <ul><!--unordered list-->
+       <li>HTML</li>
+       <li>CSS</li>
+       <li>Javascript</li>
+    </ul>
+    <ol type="a"><!--ordered list-->
+       <li class="description">HTML</li>
+       <li class="description">CSS</li>
+       <li class="description">Javascript</li>
+    </ol>
+    
+    <h3>Skill Description</h3>
+    <dl><!--desc list-->
+      <dt>HTML</dt> <!--desc term-->
+      <dd>html is used for creating a basic structure of any webpage</dd><!--desc definition-->
+
+      <dt>CSS</dt>
+      <dd>Used for styling webpages</dd>
+    </dl>
+       </section>
+    
+ 
+    <section>
+      <h2 id="Projects">Projects</h2>
+      <article>
+        <h3>Portfolio</h3>
+        <p>A personal wbsite built using HTML.</p>
+      </article>
+          <article>
+        <h3>student management system</h3>
+        <p>Created using c++ and file handling.</p>
+      </article>
+    </section>
+
+    <aside>
+        <h3>Quick Links</h3>
+        <a href="https://github.com/somiyatutor/MERN-online-classes/tree/main/Day1" target="_blank">github</a>
+        
+    </aside>
+    <section>
+      <h2 id="Contact">Contact Me</h2>
+    </section>
+    
+    <!--two types of containers 1)Block element <div>,<h1> 2)Inline element <span> <img> <a>-->
+    </main>
+    <footer>
+        <p>&copy; 2026 Somiya.All rights reserved.</p>
+    </footer>
+</body>
+</html>
