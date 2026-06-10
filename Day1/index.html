@@ -20,9 +20,18 @@
         <section>
            <h2 id="About">About Me</h2>
            <img src="profile_photo.webp" alt="Image not found" width="200">
-           <p>Hello! My name is Somiya.I am a <span >Computer Science Engineering</span> student interested in Web Developer.</p>
+           <p>Hello! My <b>name</b> is <strong>Somiya</strong>.I am a <span> <i><mark>Computer Science Engineering</mark></i></span> student <em>interested</em> in Web Developer.</p>
+           <h3>Audio</h3>
+           <audio controls autoplay>
+            <source src="sample.mp3" type="audio">
+           </audio>
+        
+           <h3>Video</h3>
+           <video width="400" controls>
+            <source src="sample.mp4" type="video">
+           </video>
         </section>
-   
+       <hr>
        <section>
         <h2 id="Skills">Skills</h2>
            <h3>Technical Skills</h3>
@@ -45,9 +54,17 @@
       <dt>CSS</dt>
       <dd>Used for styling webpages</dd>
     </dl>
+
+    <h3>Progress</h3>
+
+    HTML:
+    <progress value="80" max="100"></progress>
+    <br>
+    Learning Progress:
+    <meter value="0.9"></meter>
        </section>
     
- 
+   <hr>
     <section>
       <h2 id="Projects">Projects</h2>
       <article>
@@ -58,6 +75,21 @@
         <h3>student management system</h3>
         <p>Created using c++ and file handling.</p>
       </article>
+
+      <h3>Project table</h3>
+      <table border="1">
+        <tr>
+            <th>Project</th>
+            <th>Technology</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>Blog website</td>
+            <td>MERN</td>
+            <td>In progress</td>
+        </tr>
+      </table>
     </section>
 
     <aside>
@@ -65,10 +97,48 @@
         <a href="https://github.com/somiyatutor/MERN-online-classes/tree/main/Day1" target="_blank">github</a>
         
     </aside>
+    <hr>
     <section>
       <h2 id="Contact">Contact Me</h2>
+      <form> <!-- collect user input-->
+         <label>Name</label>
+         <input type="text" placeholder="Enter your name"><br><br> <!--Line break-->
+          <label>Email</label>
+         <input type="email" placeholder="Enter your email"><br><br>
+          <label>Password</label>
+         <input type="password" ><br><br>
+          <label>Phone</label>
+         <input type="tel" placeholder="Enter your phone no."><br><br>
+         <label>DOB</label>
+         <input type="date" ><br><br>
+         <label>Gender:</label>
+        <input type="radio" name="gender">Female
+         <input type="radio" name="gender">Male
+         <input type="radio" name="gender">Other<br><br>
+         <label>Skills:</label>
+         <input type="checkbox"> HTML
+         <input type="checkbox"> CSS
+         <input type="checkbox"> Javascript <br><br>
+         <label>City:</label>
+         <select>
+            <option>Noida</option>
+            <option>Delhi</option>
+            <option>Ghaziabad</option>
+         </select><br><br>
+
+         <label>Message:</label><br>
+         <textarea rows="4" cols="30"></textarea>
+         <br><br>
+         <input type="submit" value="Send">
+         <!--<input type="reset" value="Send">-->
+         
+         <button>Reset</button>
+      </form>
     </section>
-    
+    <p>
+        H<sub>2</sub>O is water and 2<sup>3</sup>=8
+    </p>
+    <p><small>Lorem ipsum</small> dolor sit, amet consectetur adipisicing elit. Ducimus, perspiciatis id esse recusandae unde ut sapiente minus veritatis consequatur maxime, nobis nulla possimus nemo dolorum amet fugit doloremque facere officia!</p>
     <!--two types of containers 1)Block element <div>,<h1> 2)Inline element <span> <img> <a>-->
     </main>
     <footer>
