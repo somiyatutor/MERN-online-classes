@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+.content{
+    margin-top: 500px;
+    background-color: yellow;
+ 
+     background-size: cover;
+}
+.fixed-box{
+    position: fixed;/*fixed element stays fixed on the screen even when the page scrolls*/
+    width: 150px;
+    height:150px;
+    top:0px;
+    background-color: aquamarine;
+}
+.sticky-box{
+    position: sticky;/*fixed element stays fixed on the screen even when the page scrolls*/
+    width: 150px;
+    height:150px;
+    top:0px;
+    margin-left:200px;
+    background-color: rgb(211, 46, 13);
+}
+.enjoy{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(27, 27, 174);
+    background-image: url(../Day1/profile_photo.webp);
+     background-size: cover;
+
+
+}
