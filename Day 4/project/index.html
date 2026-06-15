@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Universe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+     <h1>🦸 Superhero Universe</h1>
+
+     <div class="stats">
+        Heroes Created:
+        <span id="heroCount">0</span>
+     </div>
+
+     <div class="controls">
+         <input
+         type="text"
+         id="heroName"
+         placeholder="Enter Hero Name">
+
+         <button id="createBtn">
+            Create Hero
+         </button>
+     </div>
+
+     <input
+     type="text"
+     id="search"
+     placeholder="Search Hero">
+
+     <div id="heroes"></div>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
