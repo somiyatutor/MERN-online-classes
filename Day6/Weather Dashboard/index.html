@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter City">
+        </div>
+        <button onclick="getWeather()">Search</button>
+        <div id="loading" class="loading"></div>
+        <div id="error" class="error"></div>
+
+        <div class="current-weather">
+            <div class="weather-info">
+                <h2 id="city">City</h2>
+                <h1 id="temp">-- C</h1>
+                <p id="desc">Weather Description</p>
+            </div>
+            <div class="weather-icon">
+                <img id="icon" src="" alt="">
+            </div>
+        </div>
+        <div class="details">
+            <div class="card">
+                <h3>Humidity</h3>
+                <p id="humidity">--%</p>
+            </div>
+            <div class="card">
+                <h3>grnd_level
+</h3>
+                <p id="grnd_level">--%</p>
+            </div>
+            <div class="card">
+                <h3>Pressure</h3>
+                <p id="pressure">--%</p>
+            </div>
+            <div class="card">
+                <h3>Feels Like</h3>
+                <p id="feels">--%</p>
+            </div>
+        </div>
+
+        <div class="forecast">
+            <h2>5 Day Forecast</h2>
+            <div class="forecast-container" id="forecastContainer"></div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
